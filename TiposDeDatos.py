@@ -68,7 +68,9 @@ print (x, ",", j,",",hola ,",",verdadero )
 
 #* Cracion de listas 
 lista= [1,2, 3, 4]
+lista.append(5)
 print ("\n", lista)
+
 
 #*Diccionarios 
 diccionario= {
@@ -80,3 +82,32 @@ print (diccionario)
 #* Conjuntos con repeticion
 colores= {"rojo", "rojo", "azul", "verde"}
 print(colores)
+#! Ejercicio operaciones con cadena de caracteres
+mensage= "Python"
+cantidad= mensage[0:3]
+mensageM= mensage.lower() 
+mensagem= mensage.upper()
+print (mensageM)
+print (mensagem)
+print (cantidad)
+#!Operaciones con numeros 
+n1 = 5
+n2= 2
+print(n1 + n2)#?suma
+print(n1 - n2)#? Resta
+print(n1 * n2)#? Multiplicacion
+print(n1 / n2)#? Divicion
+print(n1 // n2)#? Divicion entera
+print(n1 % n2)#? Residuo
+
+#! Trabajando con diccionarios 
+auto ={
+    "marca":"chevi",
+    "modelo":"2015",
+    "año":"2015"
+}
+auto.pop("modelo")
+auto["color"]= "azul"
+auto["año"]= "2005"
+
+print (" lol \n", auto)
